@@ -1,0 +1,64 @@
+{
+    "AircraftList" : [ ],
+    "BaseCost" : 0,
+    "CanBePlacedInWater" : false,
+    "CanBePlacedOnLand" : true,
+    "CanBePlacedOnPath" : false,
+    "CanTargetCamo" : false,
+    "DefaultSprite" : "monkey_farmer_pro.json",
+    "DefaultWeapons" : [
+        "BananaFarmerPro.weapon",
+		"BananaSkinCannon.weapon",
+		"BananaSkinCannonShutOff.weapon"
+    ],
+	"ActiveWeaponSlots": [
+		true,
+		false,
+		true
+	],
+	"DrawWeaponsOnTop" : false,
+    "Icon" : "farmer_pro_avatar_small",
+    "FE_Avatar"             : "special_agent_farmer_pro_avatar",
+   "PlacementH" : 0.0,
+    "PlacementRadius" : 10.0,
+    "PlacementW" : 0.0,
+    "RankToUnlock" : 1,
+    "RotatesToTarget" : true,
+    "Specialities" : [
+    ],
+    "TargetIsWeaponOrigin" : false,
+    "TargetingMode" : "First",
+    "TargetsManually" : false,
+    "TypeName" : "BananaFarmerPro",
+    "Upgrades" : [
+        [
+        ],
+        [
+        ]
+    ],
+	"UpgradeGateway" :
+	[
+		[  ],
+		[  ]
+	],
+    "UpgradePrices" : 
+    [
+        [  ],
+        [  ]
+    ],
+    "UpgradeIcons" : [
+        [
+        ],
+        [
+        ]
+    ],
+    "UpgradeAvatars" : [
+        [
+        ],
+        [
+        ]
+    ],
+    "UseRadiusPlacement" : true,
+    "IsAgent" : true,
+	"AnimationWeaponSlotIndex" : 1
+}

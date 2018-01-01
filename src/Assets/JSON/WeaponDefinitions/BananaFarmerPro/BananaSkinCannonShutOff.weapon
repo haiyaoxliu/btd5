@@ -1,0 +1,17 @@
+{	
+    "Type":             "BananaSkinCannonShutOff",    
+    "TargetRange":      1,
+	"CooldownTime":     0.0,
+    "FireDelayTime":    0.0,
+	"RequiresTargetToFire" : false,
+	"FiresOnRoundEnd" : true,
+   
+    "Tasks" :
+    [
+        {
+            "Type" : "EnableWeaponSlot",
+            "SlotIndex" : 1,
+			"Enable" : false
+        }
+	]
+}

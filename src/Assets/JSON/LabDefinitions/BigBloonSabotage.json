@@ -1,0 +1,179 @@
+{
+	"Name" : "LOC_LAB_BigBloonSabotage",
+	"Description" : "LOC_LAB_DESC_BigBloonSabotage",
+    "LevelDescription" : "LOC_LAB_LEVELINFO_BigBloonSabotage",
+    "Icon" : "big_bloon_sabotage",
+	"LevelGateway" : [ 2, 5, 9, 14, 21, 31, 48, 83, 123, 168, 218, 278, 348],
+    
+	"Upgrades" : [
+		{
+            "DisplayValueString" : "2",
+            "FactoryData" : {
+			"Rules" : {
+					"BloonInitialHealthModifier" : {
+						"MOAB" : 0.98,
+						"BFB" : 0.98,
+						"ZOMG" : 0.98,
+						"TestBloon" : 0.98
+					}
+				}
+	 		}
+		},
+		{
+            "DisplayValueString" : "4",
+			"FactoryData" : {
+				"Rules" : {
+					"BloonInitialHealthModifier" : {
+						"MOAB" : 0.96,
+						"BFB" : 0.96,
+						"ZOMG" : 0.96,
+						"TestBloon" : 0.96
+					}
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "6",
+			"FactoryData" : {
+				"Rules" : {
+					"BloonInitialHealthModifier" : {
+						"MOAB" : 0.94,
+						"BFB" : 0.94,
+						"ZOMG" : 0.94,
+						"TestBloon" : 0.94
+				  	}
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "8",
+			"FactoryData" : {
+				"Rules" : {
+					"BloonInitialHealthModifier" : {
+						"MOAB" : 0.92,
+						"BFB" : 0.92,
+						"ZOMG" : 0.92,
+						"TestBloon" : 0.92
+				  	}
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "10",
+			"FactoryData" : {
+				"Rules" : {
+					"BloonInitialHealthModifier" : {
+						"MOAB" : 0.9,
+						"BFB" : 0.9,
+						"ZOMG" : 0.9,
+						"TestBloon" : 0.9
+				  	}
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "12",
+			"FactoryData" : {
+				"Rules" : {
+					"BloonInitialHealthModifier" : {
+						"MOAB" : 0.88,
+						"BFB" : 0.88,
+						"ZOMG" : 0.88,
+						"TestBloon" : 0.88
+				  	}
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "15",
+			"FactoryData" : {
+				"Rules" : {
+					"BloonInitialHealthModifier" : {
+						"MOAB" : 0.85,
+						"BFB" : 0.85,
+						"ZOMG" : 0.85,
+						"TestBloon" : 0.85
+				  	}
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "20",
+			"FactoryData" : {
+				"Rules" : {
+					"BloonInitialHealthModifier" : {
+						"MOAB" : 0.8,
+						"BFB" : 0.8,
+						"ZOMG" : 0.8,
+						"TestBloon" : 0.8
+				  	}
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "22",
+			"FactoryData" : {
+				"Rules" : {
+					"BloonInitialHealthModifier" : {
+						"MOAB" : 0.78,
+						"BFB" : 0.78,
+						"ZOMG" : 0.78,
+						"TestBloon" : 0.78
+				  	}
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "24",
+			"FactoryData" : {
+				"Rules" : {
+					"BloonInitialHealthModifier" : {
+						"MOAB" : 0.76,
+						"BFB" : 0.76,
+						"ZOMG" : 0.76,
+						"TestBloon" : 0.76
+				  	}
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "26",
+			"FactoryData" : {
+				"Rules" : {
+					"BloonInitialHealthModifier" : {
+						"MOAB" : 0.74,
+						"BFB" : 0.74,
+						"ZOMG" : 0.74,
+						"TestBloon" : 0.74
+				  	}
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "28",
+			"FactoryData" : {
+				"Rules" : {
+					"BloonInitialHealthModifier" : {
+						"MOAB" : 0.72,
+						"BFB" : 0.72,
+						"ZOMG" : 0.72,
+						"TestBloon" : 0.72
+				  	}
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "30",
+			"FactoryData" : {
+				"Rules" : {
+					"BloonInitialHealthModifier" : {
+						"MOAB" : 0.7,
+						"BFB" : 0.7,
+						"ZOMG" : 0.7,
+						"TestBloon" : 0.7
+				  	}
+				}
+			}
+		}
+	]
+}

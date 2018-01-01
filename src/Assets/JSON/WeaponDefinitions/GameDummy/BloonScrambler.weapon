@@ -1,0 +1,44 @@
+{
+  "Type": "BloonScrambler",
+  "TargetRange": 0,
+  "CooldownTime": 720000,
+  "FireDelayTime": 0.0,
+  "ManuallyFired": true,
+  "RequiresTargetToFire": false,
+  "TotalAmmo": 1,
+  "RemainingAmmo": 1,
+  "TargetingFilter": {
+    "Exclude": {
+      "BloonType": [
+        "MOAB",
+        "BFB",
+        "ZOMG"
+      ]
+    }
+  },
+  "Tasks": [
+    {
+      "Type": "TowerBoost"
+    },
+    {
+      "Type": "Effect",
+      "SpriteFile": "bloon_scrambler.json",
+      "Position": [
+        240,
+        160
+      ],
+      "DrawLayer": "FullScreen",
+      "Audio": "BLOON_SCRAMBLER"
+    },
+    {
+      "Type": "Damage",
+      "DamageType": "Plasma",
+      "Amount": 350
+    },
+    {
+      "Type": "StatusEffect",
+      "Status": "MultiLayerDamage",
+      "Kill": true
+    }
+  ]
+}

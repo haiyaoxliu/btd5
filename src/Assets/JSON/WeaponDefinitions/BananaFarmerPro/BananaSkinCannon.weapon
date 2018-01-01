@@ -1,0 +1,43 @@
+{	
+    "Type":             "BananaSkinCannon",    
+    "TargetRange":      150,
+	"CooldownTime":     1.0,
+    "FireDelayTime":    0.0,
+	"RequiresTargetToFire" : true,
+   
+    "Tasks" :
+    [
+		{
+			"Type": "Projectile",
+			"GraphicName": "monkey_farmer_pro_banana",
+			"NumPersists": 20,
+			"TerminateOnZeroPersists": true,
+			"RemoveOnRoundEnd" : false,
+			"OnlyCollidePastCutOff" : true,
+			
+			"HasLimitedDuration" : true,
+			"LimitedDuration" : 10,
+			
+			"CollisionType": "Continual",
+			
+			"Movement":
+			{
+				"Type": "MotionCurve",
+				"Curves": 
+				[
+					[ [0, 0], [0.9, 0], [1, 0], [1, 0] ]
+				],
+				"Speed": 115.0,
+				"TerminateAtEndOfCurve": false
+			},
+		
+			"Tasks" :
+			[ 
+				{ 
+					"Type": "StatusEffect",
+					"Status": "MoveToPath"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,141 @@
+{
+	"Name" : "LOC_LAB_AttackSpeed",
+	"Description" : "LOC_LAB_DESC_AttackSpeed",
+    "LevelDescription" : "LOC_LAB_LEVELINFO_AttackSpeed",
+    "Icon" : "faster_firing",
+	"LevelGateway" : [ 2, 5, 9, 14, 24, 36, 54, 79, 111, 151, 196, 246, 306],
+    
+	"Upgrades" :
+	[
+		{
+            "DisplayValueString" : "2",
+			 	"TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"Cooldown" : [ 0.98, 0 ]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "3",
+            "TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"Cooldown" : [ 0.97, 0 ]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "4",
+            "TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"Cooldown" : [ 0.96, 0 ]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "5",
+            "TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"Cooldown" : [ 0.95, 0 ]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "7",
+            "TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"Cooldown" : [ 0.93, 0 ]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "9",
+            "TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"Cooldown" : [ 0.91, 0 ]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "12",
+            "TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"Cooldown" : [ 0.88, 0 ]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "15",
+            "TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"Cooldown" : [ 0.85, 0 ]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "18",
+            "TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"Cooldown" : [ 0.82, 0 ]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "20",
+            "TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"Cooldown" : [ 0.80, 0 ]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "22",
+            "TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"Cooldown" : [ 0.78, 0 ]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "24",
+            "TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"Cooldown" : [ 0.76, 0 ]
+				}
+			}
+		},
+		{
+            "DisplayValueString" : "26",
+            "TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"Cooldown" : [ 0.74, 0 ]
+				}
+			}
+		}
+	]
+}

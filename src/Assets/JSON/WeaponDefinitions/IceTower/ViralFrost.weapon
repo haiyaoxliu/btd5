@@ -1,0 +1,26 @@
+{	
+    "Type":             "ViralFrost",    
+    "TargetRange":      30,
+	"CooldownTime":     0,
+    "FireDelayTime":    0,
+    "TerminateOnZeroPersists": true,
+    "FollowTarget": false,
+   
+	"DisabledTasks" : [ 1 ],
+
+    "Tasks" :
+    [
+		{
+			"Type": "StatusEffect",
+			"Status": "Ice" 
+		},
+		{
+			"Type": "RemoveStatusEffect",
+			"Status": "Camo"
+		},
+		{
+			"Type": "StatusEffect",
+			"Status": "ViralFrost"
+		}
+	]
+}

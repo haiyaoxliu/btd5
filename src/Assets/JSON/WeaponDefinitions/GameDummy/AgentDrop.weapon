@@ -1,0 +1,57 @@
+{	
+    "Type":             "AgentDrop",
+    "TargetRange":      0,
+	"CooldownTime":     1,
+    "FireDelayTime":    0.0,
+	"RequiresTargetToFire": false,
+    "ManuallyFired": true,
+
+    "Tasks"	:
+    [
+		{
+			"Type": "RandomFire",
+			"Range": 0,
+			"OnlyTargetPathLocations": true,
+			"FireFullRange": false,
+
+			"Tasks":
+			[
+				{
+					"Type":             "Collectable",
+					"GraphicName":      "agent_box",
+					"Duration":	15,
+					"CollectionRadius": 50,
+                    "AgentAward" :true,
+                    "ClickOnly":true,
+                    "DrawLayer": "Ground",
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 5,
+						"KeepOnScreen": true,
+                        "KeepOnScreenBuffer":20,
+						"SpeedDecay": 0.9
+					},
+					
+					"Tasks":
+					[
+						{
+							"Type": "TextEffect",
+							"Text": "",
+							"Font": "oetztype_24_black_stroke",
+                            "Colour": [ 1.0, 1.0, 1.0 ],
+                            "Movement":
+							{
+								"Type": "Forward",
+								"Direction": [0, -1],
+								"Speed": 30,
+								"CutOffDistance": 30
+							}
+						}
+					]
+				}
+			]
+		}
+    ]
+}
+

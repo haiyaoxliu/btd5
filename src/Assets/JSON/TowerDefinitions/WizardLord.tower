@@ -1,0 +1,36 @@
+{
+    "AircraftList" : [ ],
+    "BaseCost" : 0,
+    "CanBePlacedInWater" : false,
+    "CanBePlacedOnLand" : true,
+    "CanBePlacedOnPath" : false,
+    "CanTargetCamo" : true,
+    "DefaultSprite" : "WizardLord.json",
+    "DefaultWeapons" : [
+        "WizardLord.weapon",
+        "WizardLordFireball.weapon",
+        "WizardLordDragonbreath.weapon",
+		"WizardLordChainLightning.weapon",
+		"WizardLordSummonPhoenix.weapon",
+		"WizardLordWhirlwind.weapon"
+    ],
+	"DrawWeaponsOnTop" : false,
+    "Icon" : "wizard_lord_avatar_small",
+    "PlacementH" : 0.0,
+    "PlacementRadius" : 10.0,
+    "PlacementW" : 0.0,
+    "RankToUnlock" : 1,
+    "RotatesToTarget" : true,
+    "TargetIsWeaponOrigin" : false,
+    "TargetingMode" : "First",
+    "TargetsManually" : false,
+    "TypeName" : "WizardLord",
+	"UpgradeGateway" :
+	[
+		[  ],
+		[  ]
+	],
+    "UseRadiusPlacement" : true,
+    "SkipFirstFrameWhenFiring" : true,
+    "IsAgent" : true
+}

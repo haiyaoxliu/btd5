@@ -1,0 +1,72 @@
+{	
+    "Type":             "DartlingGun",
+    "TargetRange":      100.0,
+    "CooldownTime":     0.7,
+    "FireDelayTime":    0.2,
+    
+    "Tasks" :
+    [
+		{
+			"Type":             "Projectile",
+			"GraphicName":      "dart_monkey_dart",
+			"NumPersists":      1,
+			"TerminateOnZeroPersists": true,
+			
+			"CollisionType": "Once",
+			
+			"Movement":
+			{
+				"Type": "Forward",
+				"Speed": 805.0,
+				"CutOffDistance": 161
+			},
+			
+			"Tasks" :
+			[ 
+				{
+					"Type": "Damage",
+					"DamageType": "Piercing",
+					"Amount": 2 
+				},
+				{
+					"Type": "StatusEffect",
+					"Status": "MultiLayerDamage"
+				}
+			]
+		},
+                {
+                        "Type": "MultiFire",
+                        "InitialOffset": -85.0,
+                        "AngleIncrement": 170.0,
+                        "FireCount": 2,
+                        "Tasks":
+                        [
+                                {
+                                        "Type": "Projectile",
+                                        "GraphicName": "dart_monkey_dart",
+                                        "NumPersists":      1,
+                                        "TerminateOnZeroPersists": true,
+
+                                        "CollisionType": "Once",
+
+                                        "Movement":
+                                        {
+                                                "Type": "Forward",
+                                                "Speed": 805.0,
+                                                "CutOffDistance": 161
+                                        },
+
+                                        "Tasks":
+                                        [
+                                                {
+                                                        "Type": "Damage",
+                                                        "DamageType": "Piercing",
+                                                        "Amount": 1
+						}
+
+                                        ]
+                                }
+                        ]
+                }
+	]
+}
